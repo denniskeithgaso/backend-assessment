@@ -64,6 +64,9 @@ class Country extends Template
             return parent::_toHtml();
         }
         $country_code = $this->getGeoIp()->getCountryCode();
-        return '<li>' . $country_code . '</li>';
+        if ($country_code === 'US') {
+            return '<li>' . $country_code . '</li>';
+        }
+        return '<li>Global</li>';
     }
 }
