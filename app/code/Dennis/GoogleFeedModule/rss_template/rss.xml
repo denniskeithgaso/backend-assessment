@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+    <channel>
+        <title>{title}</title>
+        <link>{link}</link>
+        <description>{description}</description>
+        <item>
+            <g:id>{id}</g:id>
+            <g:title>{title}</g:title>
+            <g:description>{description}</g:description>
+            <g:link>{link}</g:link> <g:image_link>{image}</g:image_link> <g:condition>new</g:condition>
+            <g:availability>{availability}</g:availability>
+            <g:price>{price}</g:price>
+        </item>
+    </channel>
+</rss>
