@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+    <channel>
+        <title>Sample Product</title>
+        <link>http://localhost/sample-product.html</link>
+        <description>Sample Product </description>
+        <item>
+            <g:id>11</g:id>
+            <g:title>Sample Product</g:title>
+            <g:description>Sample Product </g:description>
+            <g:link>http://localhost/sample-product.html</g:link> <g:image_link>http://localhost/media/catalog/product/c/a/catatumbo_3.jpeg</g:image_link> <g:condition>new</g:condition>
+            <g:availability>in stock</g:availability>
+            <g:price>123.000000</g:price>
+        </item>
+    </channel>
+</rss>
